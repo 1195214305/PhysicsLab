@@ -1,0 +1,16 @@
+{
+  // ESA Pages 配置文件
+  "version": 1,
+
+  // 静态资源目录（构建产物）
+  "assets": "frontend/dist",
+
+  // 边缘函数入口文件
+  "function": "functions/ai/tutor.ts",
+
+  // 构建配置
+  "build": {
+    "command": "cd frontend && npm install && npm run build",
+    "outputDirectory": "frontend/dist"
+  }
+}
